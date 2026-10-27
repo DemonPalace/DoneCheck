@@ -1,0 +1,7 @@
+{
+  "checks": [
+    {"id": "go-vet", "type": "command_exit_code", "command": ["go", "vet", "./..."]},
+    {"id": "go-vulncheck", "type": "dependency_audit", "tool": "govulncheck", "path": "go.mod"},
+    {"id": "code-scan", "type": "code_scan"}
+  ]
+}
