@@ -71,7 +71,7 @@ send it a one-line fix request listing the failing checks, after you confirm.
 
 ## Status
 
-This repository ships no automated tests. Run `donecheck check --allow-commands` here to
+This repository ships no automated tests yet. Run `donecheck check --allow-commands` here to
 check DoneCheck with DoneCheck (vet, a vulnerability scan and a code scan). The Windows
 installer, `osv-scanner` support and sending to a live terminal tab have not been tried
 on real systems.
